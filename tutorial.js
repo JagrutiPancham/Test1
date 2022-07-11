@@ -3,23 +3,22 @@
 //    x=x+b
 //     console.log(x)
 
- let a = new Array(1,2,3,4,5)
- //how to print no in  range and skip one point
-  let i=0
- for(i=1;i<11;i++){
-  if(i==8){
-    continue;
-  }   
-
+//  let a = new Array(1,2,3,4,5)
+//  //how to print no in  range and skip one point
+//   let i=0
+//  for(i=1;i<11;i++){
+//   if(i==8){
+//     continue;
+//   }   
 //    console.log(i); 
 //  }
 
-//reverse printing
-// for(i=100;i>=10;i--){
-//     if(i%10==0){
-//         console.log(i)
-//     }
-// }
+reverse printing
+for(i=100;i>=10;i--){
+    if(i%10==0){
+        console.log(i)
+    }
+}
 
 // function a1(){
 //     let a=10
