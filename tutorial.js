@@ -20,14 +20,14 @@
 //     }
 // }
 
-function a1(){
-    let a=10
-    let b=20
-    let c=0
-    c=a+b
-    console.log(c)
-}
-a1()
+// function a1(){
+//     let a=10
+//     let b=20
+//     let c=0
+//     c=a+b
+//     console.log(c)
+// }
+// a1()
 
 //initializing array
 // let arr= new Array(10,20,30,40,50);
@@ -38,9 +38,9 @@ a1()
 //     console.log(x);
 // }
 
-//initialize String type arrays
-// var1 = new Array("jags","arnav","baby hayat","vikky","komal","aloo");
-// console.log(var1)
+//initialize String type of array
+var1 = new Array("jags","arnav","baby hayat","vikky","komal","aloo");
+console.log(var1)
 
 //user input
 // let a=20;
