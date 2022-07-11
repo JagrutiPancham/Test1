@@ -13,21 +13,21 @@
 //    console.log(i); 
 //  }
 
-reverse printing
-for(i=100;i>=10;i--){
-    if(i%10==0){
-        console.log(i)
-    }
-}
-
-// function a1(){
-//     let a=10
-//     let b=20
-//     let c=0
-//     c=a+b
-//     console.log(c)
+// reverse printing
+// for(i=100;i>=10;i--){
+//     if(i%10==0){
+//         console.log(i)
+//     }
 // }
-// a1()
+
+function a1(){
+    let a=10
+    let b=20
+    let c=0
+    c=a+b
+    console.log(c)
+}
+a1()
 
 //initializing array
 // let arr= new Array(10,20,30,40,50);
