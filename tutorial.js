@@ -101,8 +101,22 @@
 
 
 //Initialize concat operation
-let arr1= new String("abc");
-let arr2= new String("def");
-let arr3 = arr1.concat(arr2);
-console.log(arr3);
+// let arr1= new String("abc");
+// let arr2= new String("def");
+// let arr3 = arr1.concat(arr2);
+// console.log(arr3);
+
+// rest parameter i.e. triple dots -... //
+function sum(...input){
+    let sum = 0;
+    for(let i of input){
+        sum+=i;
+    }
+    return sum;
+}
+console.log(sum(1,2)); //3
+console.log(sum(1,2,3)); //6
+console.log(sum(1,9,5)); //15
+console.log(sum(1,2,3,4,5,5)); //20 
+console.log(sum(10,10,10)); //30
 
