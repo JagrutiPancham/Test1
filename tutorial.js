@@ -107,16 +107,23 @@
 // console.log(arr3);
 
 // rest parameter i.e. triple dots -... //
-function sum(...input){
-    let sum = 0;
-    for(let i of input){
-        sum+=i;
-    }
-    return sum;
-}
-console.log(sum(1,2)); //3
-console.log(sum(1,2,3)); //6
-console.log(sum(1,9,5)); //15
-console.log(sum(1,2,3,4,5,5)); //20 
-console.log(sum(10,10,10)); //30
+// function sum(...input){
+//     let sum = 0;
+//     for(let i of input){
+//         sum+=i;
+//     }
+//     return sum;
+// }
+// console.log(sum(1,2)); //3
+// console.log(sum(1,2,3)); //6
+// console.log(sum(1,9,5)); //15
+// console.log(sum(1,2,3,4,5,5)); //20 
+// console.log(sum(10,10,10)); //30
 
+
+// INITIALIZE SPREAD
+// concat with spread
+let arr1=[1,2,3];
+let arr2=[4,5,6];
+let arr3=[...arr1,...arr2];
+console.log(arr3);
