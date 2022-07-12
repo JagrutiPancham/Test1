@@ -39,8 +39,8 @@
 // }
 
 //initialize String type of array
-var1 = new Array("jags","arnav","baby hayat","vikky","komal","aloo");
-console.log(var1)
+// var1 = new Array("jags","arnav","baby hayat","vikky","komal","aloo");
+// console.log(var1)
 
 //user input
 // let a=20;
@@ -90,17 +90,19 @@ console.log(var1)
 
 //   class circle{
 //      constructor(r){
-//         let pi =3.14;
 //         this.r= r;  
-//         }
-//      get area(){
-//         return this.area();
-//         }
-//         area(){
-//        return pi*this.r*this.r;
-//         }
-//     let circle1 = new circle(7);
-//     console.log(circle1.area);
+//      }
+//      get area(){return this.Area(); }
+//         Area(){ return 3.14*this.r*this.r; }
+    
 //   }
+//   let circle1 = new circle(10);
+//     console.log(circle1.area);
 
+
+//Initialize concat operation
+let arr1= new String("abc");
+let arr2= new String("def");
+let arr3 = arr1.concat(arr2);
+console.log(arr3);
 
