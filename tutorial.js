@@ -123,7 +123,70 @@
 
 // INITIALIZE SPREAD
 // concat with spread
-let arr1=[1,2,3];
-let arr2=[4,5,6];
-let arr3=[...arr1,...arr2];
-console.log(arr3);
+// let arr1=[1,2,3];
+// let arr2=[4,5,6];
+// let arr3=[...arr1,...arr2];
+// console.log(arr3);
+
+//for Each
+// let a=[1,2,3];
+// let b=[];
+// a.forEach(function (fn){
+//     b.push(fn+1);
+// })
+// console.log(b);
+
+//map ex
+// let a=[1,2,3];
+// let b=[];
+// a.map(function (fn){
+//     b.push(fn+1);
+// })
+// console.log(b);
+
+//problem wrong
+
+// let a = [{name:"ritu raj", age: 20},{name:"shivani rani", age:22}];
+// let b=[firstname, lastname]=a.map(function (fn){fn.name.split(" ");})
+// console.log (b.firstname);
+// console.log(b.lastname);
+
+//problem how to split name in array by space
+// let arr = [{name:"jagruti pancham", age:20}]
+// let arr2= arr.map(ele=>{ let names= ele.name.split(" ");
+// return {
+// firstname: names[0],
+// lastname: names[1],
+// age: ele.age
+// };
+// })
+// console.log(arr2);
+
+// var promise = new Promise(function(resolve, reject) {
+//     resolve('today we learnt new topics like promise ...restof');
+// })
+   
+// promise
+//     .then(function(Message) {
+//               //success 
+//         console.log(Message);//try
+//     }, function(error) {
+//         console.log(error);//catch
+//     })
+
+// var promise = new Promise(function(resolve, reject){
+//     resolve("but pagalpanti bhi jaruri h bhaiiiii");
+// })
+// promise.then(function(msg){
+//     console.log(msg);
+// }
+// .catch(function(error){
+//     console.log(error);
+// }))
+
+
+//IIFE 
+(function (a){
+    var a;
+    console.log(a)
+})(10);
