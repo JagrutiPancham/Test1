@@ -186,7 +186,17 @@
 
 
 //IIFE 
-(function (a){
-    var a;
-    console.log(a)
-})(10);
+// (function (a){
+//     var a;
+//     console.log(a)
+// })(10);
+
+
+// const getData = async => {
+// 	var data = "Hello World";
+// 	return data;
+// }
+// getData().then(data => console.log(data));
+
+
+
